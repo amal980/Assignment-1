@@ -1,11 +1,15 @@
 /* start header style */
+body{
+    margin: 0;
+    padding: 0;
+}
 header{
     background-color: #FDEDEC;
 }
 .header-info{
     display: flex;
     align-items: center;
-    padding: 30px 30px 0px 150px;
+    padding: 30px 30px 0px 0px;
 }
 .btn-primary{
     background: #E55473;
@@ -23,7 +27,7 @@ header{
 .header-conteint{
     width: 600px;
     color: #454545;
-}
+
 .featured-section{
     padding: 100px 30px 0px 30px;
 }
@@ -32,6 +36,10 @@ header{
     height: 800px;
 }
 /* main section style */
+}
+main{
+    width: 1440px;
+}
 .featur-conteint{
     text-align: center;
     width: 500px;
@@ -49,37 +57,53 @@ header{
 }
 .flower-item{
     display: flex;
-    gap: 10px;
+    gap: 0px;
     justify-content: space-around;
 }
 .flower-name{
     
-    width: 465px;
-    height: 500px;
+   
+    
     padding: 30px;
 }
 .item-name-2{
-    width: 310px;
-    height: 400px;
+    width: 450px;
+    height: 600px;
     background-color: #FDEDEC;
     padding: 30px 30px 0px 20px;
-    border-radius: 200px 200px 0px 0px;
+    border-radius: 250px 250px 0px 0px;
     
 }
 .item-name-1{
-    width: 310px;
-    height: 400px;
+    width: 450px;
+    height: 600px;
     background-color: #ECFAFD;
     padding: 30px 30px 0px 20px;
-    border-radius: 200px 200px 0px 0px;
+    border-radius: 250px 250px 0px 0px;
 }
 .item-name-3{
-    width: 310px;
-    height: 400px;
+    width: 450px;
+    height: 600px;
     background-color: #FAECFD;
     padding: 30px 30px 0px 20px;
-    border-radius: 200px 200px 0px 0px;
+    border-radius: 250px 250px 0px 0px;
 }
 .flower-tree{
     text-align: center;
+}
+/* end main sectionfirst pert style */
+.delivery-item{
+    display: flex;
+    background-color: #ededed;
+    justify-content: space-around;
+    height: 320px;
+    align-items: center;
+    padding: 30px 30px 0px 30px;
+    
+}
+.delivery-description{
+    text-align: center;
+}
+.item-image{
+    margin-left: 60px;
 }
