@@ -1,20 +1,20 @@
 /* start header style */
-body{
+*{
     margin: auto;
     padding: 0px ;
 }
 header{
     background-color: #FDEDEC;
     width: 1920px;
-   margin-left: 0px;
+
    
 }
 .header-info{
     display: flex;
     align-items: center;
     margin: auto;
-    padding: 0px 0px 0px 350px;
-    gap: 10px;
+    
+   
 }
 .btn-primary{
     background: #E55473;
@@ -24,33 +24,39 @@ header{
     color: white;
     font-weight: 700;
     padding: 20px 35px;
+    margin-left: 50px;
+   
 }
 .head-title{
     font-size: 70px;
     margin-bottom: 20px;
+    margin-left: 50px;
 }
 
 .header-conteint{
     width: 600px;
     height: 700px;
     color: #454545;
+    margin-top: 150px;
 
 }
 .head-description{
     width: 500px;
+    margin-bottom: 20px;
 }
 /* main section style */
 main{
     width: 1440px;
 }
 .featured-section{
-    padding: 0px 30px 0px 500px;
+    padding: 0px 100px 0px 0px;
 }
 .featur-conteint{
     text-align: center;
     width: 500px;
     height: 130px;
-  margin:auto ;
+    margin:auto ;
+    margin-top: 150px;
 }
 .heading-descripton{
 
@@ -105,6 +111,7 @@ main{
     justify-content: space-around;
     height: 320px;
     align-items: center;
+    margin-top: 50px;
 }
 .delivery-description{
     text-align: center;
@@ -123,6 +130,9 @@ main{
     height: 620px;
     margin-top: 100px;
 }
+.Off{
+    color: #E55473;
+}
 .sinup{
     width: 594px;
     height: 228px;
@@ -133,14 +143,19 @@ main{
 .hot-deal{
     font-size: 30px;
     margin-bottom: 20px;
+    margin-left: 50px;
 }
 .deal-description{
     width: 400px;
     margin: auto;
     margin-bottom: 20px;
+    margin-right: 70px;
 }
 .png-8{
     margin-top: -100px;
+}
+.Instagram-section{
+    margin-top: 70px;
 }
 .instagram{
     font-size: 30px;
@@ -160,24 +175,45 @@ section-4{
     
 }
 .last-section{
-    background-image: url("../Flower Asset/Rectangle 9");
+    /* background-image: url("../Flower Asset/Rectangle 9"); */
+    background-image: url('Flower Asset/Rectangle 9.png');
+    /* background-color: #454545; */
     background-size: cover;
     background-position: center;
-    text-align: center;
+    margin-top: 50px;
+    height: 449px;
+  
+
+}
+.subscrib-title{
+    position: absolute;
+    margin: 120px 0px 0px 200px;
+   
 }
 .latest{
     font-size: 30px;
     font-weight: 700;
+    margin-bottom: 20px;
+    /* margin-left: 200px; */
+    text-align: center;
+}
+.coupon{
+    color: #777;
+    margin-bottom: 50px;
+    text-align: center;
 }
 .email-type{
-    width: 400px;
+    width: 600px;
     height: 50px;
     border-radius: 5px;
     border: 0;
     background: white;
+  
+    
 }
 footer{
     width: 1920px;
+    margin-top: 70px;
 }
 .flower-head{
     background-color: black;
@@ -185,13 +221,12 @@ footer{
 }
 .flower-shop{
     color: white;
-    margin: auto;
-    width: 60%;
-    border: 3px solid #73AD21;
-    padding: 10px;
+    position: absolute;
+    width: 100%;
+    padding: 0px;
+    margin-top: 150px;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+   
    
    
 }
