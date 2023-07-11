@@ -112,3 +112,33 @@ main{
 .item-image{
     margin-left: 60px;
 }
+/* section3 style */
+
+.sing-up-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0px 0px 0px;
+    background-color: #FDEDEC;
+    height: 620px;
+    margin-top: 100px;
+}
+.sinup{
+    width: 594px;
+    height: 228px;
+    text-align: center;
+  
+    
+}
+.hot-deal{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.deal-description{
+    width: 400px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.png-8{
+    margin-top: -100px;
+}
