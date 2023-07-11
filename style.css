@@ -1,0 +1,52 @@
+/* start header style */
+header{
+    background-color: #FDEDEC;
+}
+.header-info{
+    display: flex;
+    align-items: center;
+    padding: 30px 30px 30px 150px;
+}
+.btn-primary{
+    background: #E55473;
+    border: 0;
+    font-size: 18px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    padding: 20px 35px;
+}
+.head-title{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.header-conteint{
+    width: 600px;
+    color: #454545;
+}
+.flower{
+    width: 635px;
+    height: 800px;
+}
+/* main section style */
+.featur-conteint{
+    text-align: center;
+}
+.flower-item{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+.flower-name{
+    
+    width: 465px;
+    height: 605px;
+    background-color: #ededed;
+}
+.item-name{
+    width: 310px;
+    height: 428px;
+    background-color: #E55473;
+    padding: 30px 30px 30px 30px;
+    
+}
