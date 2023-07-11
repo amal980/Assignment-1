@@ -2,6 +2,7 @@
 *{
     margin: auto;
     padding: 0px ;
+    font-family: sans-serif;
 }
 header{
     background-color: #FDEDEC;
@@ -73,9 +74,6 @@ main{
     justify-content: space-around;
 }
 .flower-name{
-    
-   
-    
     padding: 30px;
 }
 .item-name-2{
@@ -137,8 +135,6 @@ main{
     width: 594px;
     height: 228px;
     text-align: center;
-  
-    
 }
 .hot-deal{
     font-size: 30px;
@@ -167,12 +163,13 @@ main{
    margin: auto;
 }
 .ins-image{
-    width: 300px;
+    width: 320px;
     height: 390px;
    margin: 10px;
+   justify-content: space-around;
+   margin: 15px;
 }
 section-4{
-    
 }
 .last-section{
     /* background-image: url("../Flower Asset/Rectangle 9"); */
@@ -182,13 +179,10 @@ section-4{
     background-position: center;
     margin-top: 50px;
     height: 449px;
-  
-
 }
 .subscrib-title{
     position: absolute;
     margin: 120px 0px 0px 200px;
-   
 }
 .latest{
     font-size: 30px;
@@ -208,8 +202,19 @@ section-4{
     border-radius: 5px;
     border: 0;
     background: white;
-  
-    
+}
+.contact-form{
+    display: flex;
+    margin-top: 50px;
+}
+.contact input[type="text"],input[type="email"], textarea{
+    display: block;
+    margin-bottom: 20px;
+    padding: 20px 35px;
+    color: #757575;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
 }
 footer{
     width: 1920px;
@@ -226,9 +231,6 @@ footer{
     padding: 0px;
     margin-top: 150px;
     text-align: center;
-   
-   
-   
 }
 .shop{
     color: #E55473;
