@@ -1,15 +1,20 @@
 /* start header style */
 body{
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: 0px ;
 }
 header{
     background-color: #FDEDEC;
+    width: 1920px;
+   margin-left: 0px;
+   
 }
 .header-info{
     display: flex;
     align-items: center;
-    padding: 30px 30px 0px 0px;
+    margin: auto;
+    padding: 0px 0px 0px 350px;
+    gap: 10px;
 }
 .btn-primary{
     background: #E55473;
@@ -21,24 +26,25 @@ header{
     padding: 20px 35px;
 }
 .head-title{
-    font-size: 60px;
+    font-size: 70px;
     margin-bottom: 20px;
 }
+
 .header-conteint{
     width: 600px;
+    height: 700px;
     color: #454545;
 
-.featured-section{
-    padding: 100px 30px 0px 30px;
 }
-.flower{
-    width: 635px;
-    height: 800px;
+.head-description{
+    width: 500px;
 }
 /* main section style */
-}
 main{
     width: 1440px;
+}
+.featured-section{
+    padding: 0px 30px 0px 500px;
 }
 .featur-conteint{
     text-align: center;
@@ -46,15 +52,15 @@ main{
     height: 130px;
   margin:auto ;
 }
+.heading-descripton{
+
+    color: #454545;
+}
 .heading-title{
     font-size: 35px;
     margin-bottom: 20px;
 }
-.heading-descripton{
 
-    color: #454545;
-    
-}
 .flower-item{
     display: flex;
     gap: 0px;
@@ -91,15 +97,14 @@ main{
 .flower-tree{
     text-align: center;
 }
-/* end main sectionfirst pert style */
+/* end main section first pert style */
+
 .delivery-item{
     display: flex;
     background-color: #ededed;
     justify-content: space-around;
     height: 320px;
     align-items: center;
-    padding: 30px 30px 0px 30px;
-    
 }
 .delivery-description{
     text-align: center;
