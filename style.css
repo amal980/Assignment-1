@@ -163,7 +163,6 @@ section-4{
     background-image: url("../Flower Asset/Rectangle 9");
     background-size: cover;
     background-position: center;
-    height: 100vh;
     text-align: center;
 }
 .latest{
@@ -176,4 +175,26 @@ section-4{
     border-radius: 5px;
     border: 0;
     background: white;
+}
+footer{
+    width: 1920px;
+}
+.flower-head{
+    background-color: black;
+    height: 450px;
+}
+.flower-shop{
+    color: white;
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+   
+}
+.shop{
+    color: #E55473;
 }
