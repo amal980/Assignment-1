@@ -233,5 +233,18 @@ footer{
     text-align: center;
 }
 .shop{
+    font-size: 60px;
+}
+.flower{
     color: #E55473;
+    
+}
+.shop-description{
+    font-size: 18px;
+    color: #454545;
+    width: 600px;
+    margin-bottom: 40px;
+}
+.copyright{
+    color: #757575;
 }
